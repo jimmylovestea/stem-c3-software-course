@@ -104,7 +104,7 @@ shinyUI(fluidPage(
                           
         # Options for scatterplot
         conditionalPanel(
-          condition = "input.plot_type == 'sc'",
+          condition = "input.plot_type == 'scatter'",
           # Let user decide two variables to look at
           
           # Var 1
